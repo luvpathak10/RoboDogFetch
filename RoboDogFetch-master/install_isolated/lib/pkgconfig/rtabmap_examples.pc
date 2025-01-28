@@ -1,0 +1,8 @@
+prefix=/home/bunny/RoboDogFetch/install_isolated
+
+Name: rtabmap_examples
+Description: Description of rtabmap_examples
+Version: 0.21.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rtabmap_conversions message_filters

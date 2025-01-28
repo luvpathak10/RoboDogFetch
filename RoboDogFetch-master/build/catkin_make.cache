@@ -1,0 +1,2 @@
+input_camera:object_detection:path_planning:robot_control:slam_package
+-DCATKIN_DEVEL_PREFIX=/home/bunny/RoboDogFetch/devel -DCMAKE_INSTALL_PREFIX=/home/bunny/RoboDogFetch/install -G Unix Makefiles

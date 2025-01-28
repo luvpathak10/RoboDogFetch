@@ -1,0 +1,8 @@
+prefix=/home/bunny/RoboDogFetch/install_isolated
+
+Name: object_detection
+Description: Description of object_detection
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime rospy std_msgs geometry_msgs

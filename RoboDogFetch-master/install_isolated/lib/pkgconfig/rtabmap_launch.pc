@@ -1,0 +1,8 @@
+prefix=/home/bunny/RoboDogFetch/install_isolated
+
+Name: rtabmap_launch
+Description: Description of rtabmap_launch
+Version: 0.21.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

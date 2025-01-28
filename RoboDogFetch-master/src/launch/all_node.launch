@@ -1,0 +1,22 @@
+<launch>
+    <!-- Input Camera Node -->
+    <node pkg="input_camera" type="input_camera.py" name="input_camera" output="screen">
+        <remap from="camera/image" to="/camera/image"/>
+    </node>
+    <!--Object Detection Node -->
+    <node pkg="object_detection" type="object_detection.py" name="object_detection" output="screen">
+        <remap from="camera/image" to="/camera/image"/>
+    </node>
+
+    <!-- Path Planning Node -->
+    <node name="path_planning" pkg="path_planning.py" type="path_planning" output="screen">
+        <!-- Add remappings, parameters, or arguments if needed -->
+        <!-- <param name="map" value="path_to_map_file" /> -->
+    </node>
+
+    <!-- Robot Control Node -->
+    <node name="robot_control" pkg="robot_control.py" type="robot_control" output="screen">
+        <!-- Add remappings, parameters, or arguments if needed -->
+        <!-- <remap from="cmd_vel" to="control_topic" /> -->
+    </node>
+</launch>
