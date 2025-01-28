@@ -1,0 +1,8 @@
+prefix=/home/luv/catkin_ws/devel
+
+Name: yolo_ball_tracking
+Description: Description of yolo_ball_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

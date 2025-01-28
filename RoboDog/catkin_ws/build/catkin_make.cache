@@ -1,0 +1,2 @@
+ball_detection:my_rtabmap_launch:unitree_legged_sdk:yolo_ball_tracking
+-DCATKIN_DEVEL_PREFIX=/home/luv/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/luv/catkin_ws/install -G Unix Makefiles

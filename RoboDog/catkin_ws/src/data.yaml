@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Tennis Balls - v2 2022-04-27 10-52am', 'undefined']
+
+roboflow:
+  workspace: now-now
+  project: tennis-ball-detection-1a6bf
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/now-now/tennis-ball-detection-1a6bf/dataset/2

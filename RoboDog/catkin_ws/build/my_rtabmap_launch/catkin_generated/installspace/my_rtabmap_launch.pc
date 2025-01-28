@@ -1,0 +1,8 @@
+prefix=/home/luv/catkin_ws/install
+
+Name: my_rtabmap_launch
+Description: Description of my_rtabmap_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
